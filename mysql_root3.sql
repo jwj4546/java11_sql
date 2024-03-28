@@ -45,12 +45,38 @@ where area_code = (select area_code from tb_member where member_name='김영희'
 -- ()안에는 이름이라는 alias가 없기 때문에 인식이 불가능
 -- asc
 
--- 1-2 아이디에 1234가 포함되는 회원과 같은 등급, 같은지역인 회원들의 아이디, 비밀번호, 이름, 등급명, 지역명을 아이디 내림차순으로 조회
-SELECT MEMBER_ID 아이디, MEMBER_PWD 비밀번호, MEMBER_NAME 이름, GRADE_NAME 등급명
+-- 1-2 아이디에 1234가 포함되는 회원과 같은 등급, 같은지역인 회원들의 아이디, 비밀번호, 이름, 등급명, 지역명을 아이디 내림차순으로 조회					
+SELECT MEMBER_ID 아이디, MEMBER_PWD 비밀번호, MEMBER_NAME 이름, GRADE_NAME 등급명, AREA_NAME 지역명					
 FROM TB_MEMBER
-JOIN TB_GRADE USING(GRADE_CODE)
+JOIN TB_GRADE ON(GRADE=TB_GRADE.GRADE_CODE)
 JOIN TB_AREA USING(AREA_CODE)
 WHERE (GRADE, AREA_CODE) =
 (SELECT GRADE, AREA_CODE FROM TB_MEMBER
-WHERE MEMBER_ID = '1234')
+WHERE MEMBER_ID like '%1234%')					
 ORDER BY MEMBER_ID DESC;
+-- 문제에서 제시한 조건인 지역명을 조회하는 문항이 누락됨(+AREA_NAME 지역명)				
+-- 3번째 줄 JOIN문에서 TB_MEMBER table에는 GRADE_CODE가 없으므로 USING을 사용하면 error가 발생한다.(GRADE_CODE가 MEMBER table에 없으므로 on으로 변경)
+-- MEMBER_ID가 1234으로 일치해야 한다는 구절이다(MEMBER_ID가 1234가 포함되는 것이므로 like "%1234%"로 수정)
+
+
+-- 1-3 서울, 경기 지역에 사는 회원들의 정보를 번호, 아이디, 이름, 등급명, 지역명을 아이디 오름차순으로 정렬(번호는 ROWNUM을 이용. 메인 쿼리 조회 결과의 번호는 1,2,3,... 순서대로 조회되어야 함.)
+SELECT MEMBER_ID 아이디, MEMBER_NAME 이름, GRADE_NAME 등급명, AREA_NAME 지역명
+FROM TB_MEMBER
+JOIN TB_GRADE ON(GRADE = GRADE_CODE)
+JOIN TB_AREA USING(AREA_CODE)
+WHERE AREA_NAME in ('서울', '경기')
+ORDER BY MEMBER_ID;
+
+-- MySQL에서는 ROWNUM의 사용이 불가능하다
+-- select문이 이중으로 사용됨(첫 줄의 select문 삭제)
+-- AREA_NAME추가
+-- 조건절의 구문에 오류 in 삽입
+-- ORDER BY 구문이 
+
+ (SELECT MEMBER_ID 아이디, MEMBER_NAME 이름, GRADE_NAME 등급명, AREA_NAME 지역명 
+	FROM TB_MEMBER
+	JOIN TB_GRADE ON(GRADE = GRADE_CODE)
+	JOIN TB_AREA USING(AREA_CODE)
+	WHERE AREA_NAME IN('서울', '경기')
+	ORDER BY MEMBER_ID);
+
