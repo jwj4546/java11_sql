@@ -1,0 +1,189 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C487951B-03F2-927A-5A10-D835011C0A72" schemaObject="AA75D929-FD75-73AF-3E3E-89D0A98DFFC3" name="BOOK2">
+<sourceConnName>sqltest</sourceConnName>
+<sourceObjSchema>C##SQLTEST</sourceObjSchema>
+<sourceObjName>BOOK2</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:46 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BOOKID" id="8BA7E0F0-9D44-E243-FE94-7782EF5BCD0C">
+<sourceConnName>sqltest</sourceConnName>
+<sourceObjSchema>BOOK2</sourceObjSchema>
+<sourceObjName>BOOKID</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BOOKKIND" id="613DC2B7-B84E-C23D-230B-4E9D47C1DEFD">
+<sourceConnName>sqltest</sourceConnName>
+<sourceObjSchema>BOOK2</sourceObjSchema>
+<sourceObjName>BOOKKIND</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5296905A-319D-88AD-636F-7DABB8DCF45E" referredColumn="892B2F03-5A67-BB9E-F915-59FF6783EF66"/>
+</associations>
+</Column>
+<Column name="BOOKTITLE" id="56351914-A470-87D0-092A-5A001EAC95AC">
+<sourceConnName>sqltest</sourceConnName>
+<sourceObjSchema>BOOK2</sourceObjSchema>
+<sourceObjName>BOOKTITLE</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BOOKPRICE" id="D506AAB6-B0BD-461A-135C-EAC40833CCC5">
+<sourceConnName>sqltest</sourceConnName>
+<sourceObjSchema>BOOK2</sourceObjSchema>
+<sourceObjName>BOOKPRICE</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BOOKCOUNT" id="5B3E5C78-FBC9-B325-88B7-5119CB246505">
+<sourceConnName>sqltest</sourceConnName>
+<sourceObjSchema>BOOK2</sourceObjSchema>
+<sourceObjName>BOOKCOUNT</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AUTHOR" id="53D2D488-3D95-9C92-1DB3-834AA9B25125">
+<sourceConnName>sqltest</sourceConnName>
+<sourceObjSchema>BOOK2</sourceObjSchema>
+<sourceObjName>AUTHOR</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PUBCOM" id="D3C9F6A6-D865-B928-80A0-93B5585F9810">
+<sourceConnName>sqltest</sourceConnName>
+<sourceObjSchema>BOOK2</sourceObjSchema>
+<sourceObjName>PUBCOM</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PUBDATE" id="15360B02-0C26-14E4-6598-CD31112B6C47">
+<sourceConnName>sqltest</sourceConnName>
+<sourceObjSchema>BOOK2</sourceObjSchema>
+<sourceObjName>PUBDATE</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CKDATA" id="ECE08ABD-073E-F81A-6C8D-B53CF758478C">
+<sourceConnName>sqltest</sourceConnName>
+<sourceObjSchema>BOOK2</sourceObjSchema>
+<sourceObjName>CKDATA</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F7E1FE82-B96D-5F50-D562-2FB528412AD3" name="BPK2">
+<sourceConnName>sqltest</sourceConnName>
+<sourceObjSchema>C##SQLTEST</sourceObjSchema>
+<sourceObjName>BPK2</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BA7E0F0-9D44-E243-FE94-7782EF5BCD0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C7A4BF74-1D16-E5D7-9C93-A92C58B06CDB" schemaObject="AA75D929-FD75-73AF-3E3E-89D0A98DFFC3" name="BPK2">
+<sourceConnName>sqltest</sourceConnName>
+<sourceObjSchema>C##SQLTEST</sourceObjSchema>
+<sourceObjName>BPK2</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BA7E0F0-9D44-E243-FE94-7782EF5BCD0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="49AD57E2-F131-DF66-CC0D-06531F2BF667" name="BFK2">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="613DC2B7-B84E-C23D-230B-4E9D47C1DEFD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

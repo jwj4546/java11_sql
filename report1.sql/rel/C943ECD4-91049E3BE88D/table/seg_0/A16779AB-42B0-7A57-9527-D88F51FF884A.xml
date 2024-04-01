@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A16779AB-42B0-7A57-9527-D88F51FF884A" schemaObject="AA75D929-FD75-73AF-3E3E-89D0A98DFFC3" name="SALES">
+<sourceConnName>sqltest</sourceConnName>
+<sourceObjSchema>C##SQLTEST</sourceObjSchema>
+<sourceObjName>SALES</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:46 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SNO" id="A8779F64-4CEB-08C1-A989-0B3FBCC14220">
+<sourceConnName>sqltest</sourceConnName>
+<sourceObjSchema>SALES</sourceObjSchema>
+<sourceObjName>SNO</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BNO" id="16E3186F-1618-9EA2-437C-3AB7CE800CDA">
+<sourceConnName>sqltest</sourceConnName>
+<sourceObjSchema>SALES</sourceObjSchema>
+<sourceObjName>BNO</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID" id="B19062DB-90E2-BEF0-A66A-9266361FFECA">
+<sourceConnName>sqltest</sourceConnName>
+<sourceObjSchema>SALES</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 BYTE</dataTypeSize>
+<ownDataTypeParameters>12 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AMOUNT" id="D58FAE99-1BE7-A2A1-DA4F-8C783F50BE3B">
+<sourceConnName>sqltest</sourceConnName>
+<sourceObjSchema>SALES</sourceObjSchema>
+<sourceObjName>AMOUNT</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MONEY" id="89B90924-B6E0-ABD5-0CF0-54E2FFB34039">
+<sourceConnName>sqltest</sourceConnName>
+<sourceObjSchema>SALES</sourceObjSchema>
+<sourceObjName>MONEY</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALESDAY" id="B2CB321D-BE3B-518A-AA14-740E52557503">
+<sourceConnName>sqltest</sourceConnName>
+<sourceObjSchema>SALES</sourceObjSchema>
+<sourceObjName>SALESDAY</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<defaultValue>sysdate</defaultValue>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3EB3622E-BC74-052A-0DBA-AE0A4B864E7A" schemaObject="AA75D929-FD75-73AF-3E3E-89D0A98DFFC3" name="SALES_PK">
+<sourceConnName>sqltest</sourceConnName>
+<sourceObjSchema>C##SQLTEST</sourceObjSchema>
+<sourceObjName>SYS_C008364</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8779F64-4CEB-08C1-A989-0B3FBCC14220"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

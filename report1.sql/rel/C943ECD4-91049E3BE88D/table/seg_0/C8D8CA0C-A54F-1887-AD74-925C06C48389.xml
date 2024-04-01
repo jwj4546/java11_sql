@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C8D8CA0C-A54F-1887-AD74-925C06C48389" schemaObject="AA75D929-FD75-73AF-3E3E-89D0A98DFFC3" name="BOOKKIND">
+<sourceConnName>sqltest</sourceConnName>
+<sourceObjSchema>C##SQLTEST</sourceObjSchema>
+<sourceObjName>BOOKKIND</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:46 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="KINDCODE" id="892B2F03-5A67-BB9E-F915-59FF6783EF66">
+<sourceConnName>sqltest</sourceConnName>
+<sourceObjSchema>BOOKKIND</sourceObjSchema>
+<sourceObjName>KINDCODE</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 BYTE</dataTypeSize>
+<ownDataTypeParameters>6 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KINDNAME" id="C47D2968-836D-B825-1756-4951CE7CEE54">
+<sourceConnName>sqltest</sourceConnName>
+<sourceObjSchema>BOOKKIND</sourceObjSchema>
+<sourceObjName>KINDNAME</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="34C853DB-E6F7-A4E1-0D68-BBDDB59D6E4D" schemaObject="AA75D929-FD75-73AF-3E3E-89D0A98DFFC3" name="BOOKKIND_PK">
+<sourceConnName>sqltest</sourceConnName>
+<sourceObjSchema>C##SQLTEST</sourceObjSchema>
+<sourceObjName>SYS_C008381</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="892B2F03-5A67-BB9E-F915-59FF6783EF66"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

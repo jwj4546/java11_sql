@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="C##SQLTEST" directorySegmentName="seg_0" id="AA75D929-FD75-73AF-3E3E-89D0A98DFFC3">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:46 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+</SchemaObject>

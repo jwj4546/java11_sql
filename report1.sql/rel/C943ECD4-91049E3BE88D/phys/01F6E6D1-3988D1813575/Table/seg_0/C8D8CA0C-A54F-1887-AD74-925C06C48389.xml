@@ -1,0 +1,40 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="BOOKKIND" directorySegmentName="seg_0" id="C8D8CA0C-A54F-1887-AD74-925C06C48389">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:46 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+<schemaObject>AA75D929-FD75-73AF-3E3E-89D0A98DFFC3</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>02483D9B-6A7F-8AD5-DEA5-B3487D4F317D</segment>
+<tableSpace>308112DC-F2F3-3DD8-D13D-873034479015</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="KINDCODE" id="892B2F03-5A67-BB9E-F915-59FF6783EF66">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="KINDNAME" id="C47D2968-836D-B825-1756-4951CE7CEE54">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="BOOKKIND_PK" id="34C853DB-E6F7-A4E1-0D68-BBDDB59D6E4D">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+<schemaObject>AA75D929-FD75-73AF-3E3E-89D0A98DFFC3</schemaObject>
+<segment>7298D050-85FC-6267-CC7C-97A68E520C76</segment>
+<tableSpace>308112DC-F2F3-3DD8-D13D-873034479015</tableSpace>
+<indexSegment>7298D050-85FC-6267-CC7C-97A68E520C76</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

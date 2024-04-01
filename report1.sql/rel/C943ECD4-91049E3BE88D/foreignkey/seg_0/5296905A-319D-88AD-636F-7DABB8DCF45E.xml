@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5296905A-319D-88AD-636F-7DABB8DCF45E" containerWithKeyObject="C487951B-03F2-927A-5A10-D835011C0A72" localFKIndex="49AD57E2-F131-DF66-CC0D-06531F2BF667" name="BFK2">
+<sourceConnName>sqltest</sourceConnName>
+<sourceObjSchema>C##SQLTEST</sourceObjSchema>
+<sourceObjName>BFK2</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+<referredTableLongName>C##SQLTEST.BOOKKIND</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C8D8CA0C-A54F-1887-AD74-925C06C48389</referredTableID>
+<keyObject>34C853DB-E6F7-A4E1-0D68-BBDDB59D6E4D</keyObject>
+<referredKeyID>34C853DB-E6F7-A4E1-0D68-BBDDB59D6E4D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>KINDCODE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

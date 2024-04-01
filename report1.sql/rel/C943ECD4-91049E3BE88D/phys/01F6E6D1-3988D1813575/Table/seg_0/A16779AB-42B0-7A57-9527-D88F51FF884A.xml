@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="SALES" directorySegmentName="seg_0" id="A16779AB-42B0-7A57-9527-D88F51FF884A">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:46 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+<schemaObject>AA75D929-FD75-73AF-3E3E-89D0A98DFFC3</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>02483D9B-6A7F-8AD5-DEA5-B3487D4F317D</segment>
+<tableSpace>308112DC-F2F3-3DD8-D13D-873034479015</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="BNO" id="16E3186F-1618-9EA2-437C-3AB7CE800CDA">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MONEY" id="89B90924-B6E0-ABD5-0CF0-54E2FFB34039">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SNO" id="A8779F64-4CEB-08C1-A989-0B3FBCC14220">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="B19062DB-90E2-BEF0-A66A-9266361FFECA">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SALESDAY" id="B2CB321D-BE3B-518A-AA14-740E52557503">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+<defaultValue>sysdate</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="AMOUNT" id="D58FAE99-1BE7-A2A1-DA4F-8C783F50BE3B">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+<defaultValue>1</defaultValue>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SALES_PK" id="3EB3622E-BC74-052A-0DBA-AE0A4B864E7A">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+<schemaObject>AA75D929-FD75-73AF-3E3E-89D0A98DFFC3</schemaObject>
+<segment>7298D050-85FC-6267-CC7C-97A68E520C76</segment>
+<tableSpace>308112DC-F2F3-3DD8-D13D-873034479015</tableSpace>
+<indexSegment>7298D050-85FC-6267-CC7C-97A68E520C76</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

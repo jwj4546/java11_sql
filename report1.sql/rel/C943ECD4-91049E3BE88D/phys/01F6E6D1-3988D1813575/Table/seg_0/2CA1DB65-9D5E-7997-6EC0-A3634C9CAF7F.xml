@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="BOOK" directorySegmentName="seg_0" id="2CA1DB65-9D5E-7997-6EC0-A3634C9CAF7F">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:46 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+<schemaObject>AA75D929-FD75-73AF-3E3E-89D0A98DFFC3</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>02483D9B-6A7F-8AD5-DEA5-B3487D4F317D</segment>
+<tableSpace>308112DC-F2F3-3DD8-D13D-873034479015</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="BOOKPRICE" id="11B9F794-26B3-55D6-C9ED-CA8A042EF050">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PUBDATE" id="1419E6C8-144A-6AC0-9E67-03858CC10EB0">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BOOKID" id="44D069FE-7DB6-15C3-BFEA-A29E6A44633E">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PUBCOM" id="4C276CF8-E81D-995A-CD70-A4B5F3FA0BB5">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BOOKCOUNT" id="657811AD-9C9D-BFB8-EB4C-8C0E560A6561">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AUTHOR" id="B4D5C26E-554E-793B-D557-A15AF0773818">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BOOKTITLE" id="BB81B5E3-3095-8AA4-7D22-9B9EE2D4BD42">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BOOKKIND" id="FF4624EC-64E5-5B68-DD65-D418F4A4C400">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="BOOK_PK" id="8EF738C7-6ED4-43B3-A496-713C622F25EA">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+<schemaObject>AA75D929-FD75-73AF-3E3E-89D0A98DFFC3</schemaObject>
+<segment>7298D050-85FC-6267-CC7C-97A68E520C76</segment>
+<tableSpace>308112DC-F2F3-3DD8-D13D-873034479015</tableSpace>
+<indexSegment>7298D050-85FC-6267-CC7C-97A68E520C76</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

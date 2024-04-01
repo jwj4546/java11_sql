@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="MEMBER2" directorySegmentName="seg_0" id="DED75AE4-DBC7-321E-A8F6-CFC9480B92BC">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:46 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+<schemaObject>AA75D929-FD75-73AF-3E3E-89D0A98DFFC3</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>02483D9B-6A7F-8AD5-DEA5-B3487D4F317D</segment>
+<tableSpace>308112DC-F2F3-3DD8-D13D-873034479015</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PT" id="01639482-62E0-A7D1-C67E-75356DFDA43E">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AREADATA" id="471616F3-E67F-4903-A8DD-7612D15257D8">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="84F2E3CD-98A6-FB01-4DD6-7B29022C7E5A">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAME" id="9B116E68-190B-5429-71F2-75FE5ABD421D">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PASSWORD" id="A1B60A54-3535-0A3C-9290-DB4AE5B49A62">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TEL" id="B4F9A44E-EEBA-1709-60EE-39BD562026F5">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ADDRESS" id="DB45A9D8-290E-903A-D3CB-1A29ACAF6495">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMAIL" id="E1A0EE1B-0CF7-56F3-C9E1-D5CBC0BFCAEA">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REG_DATE" id="ED233E89-D1A6-5F8F-F68D-0C58D960318C">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="MEMBER2_PK" id="395DB989-8584-C8E3-5592-00BD16E2CED5">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+<schemaObject>AA75D929-FD75-73AF-3E3E-89D0A98DFFC3</schemaObject>
+<segment>7298D050-85FC-6267-CC7C-97A68E520C76</segment>
+<tableSpace>308112DC-F2F3-3DD8-D13D-873034479015</tableSpace>
+<indexSegment>7298D050-85FC-6267-CC7C-97A68E520C76</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

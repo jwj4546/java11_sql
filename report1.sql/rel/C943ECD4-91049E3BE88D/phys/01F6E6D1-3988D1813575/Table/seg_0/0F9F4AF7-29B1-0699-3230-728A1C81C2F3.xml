@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="SALES2" directorySegmentName="seg_0" id="0F9F4AF7-29B1-0699-3230-728A1C81C2F3">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:46 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+<schemaObject>AA75D929-FD75-73AF-3E3E-89D0A98DFFC3</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>02483D9B-6A7F-8AD5-DEA5-B3487D4F317D</segment>
+<tableSpace>308112DC-F2F3-3DD8-D13D-873034479015</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="MONEY" id="3BEEDBAA-BE77-CAE3-31C6-AF42AF511E8E">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BNO" id="466937D2-3D27-4FC5-D3CD-A4E6A7C3467A">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="965B9486-48D1-5A1E-211F-D73F88F0F060">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AMOUNT" id="996A261C-BB15-0FCE-F965-FC7B0D632134">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SALESDAY" id="9D670535-D710-0769-E2C2-A33217E167C3">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SNO" id="E864942A-6269-6BBB-8B1D-85D3A4B06524">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-01 01:12:47 UTC</createdTime>
+<ownerDesignName>report1.sql</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev20c>
